@@ -32,3 +32,8 @@ function returnValue(elementName, equalValue) {
 function returnTContent(elementName, equalValue) {
   document.querySelector(elementName).textContent = equalValue;
 }
+
+// css style Changer
+function cssStyleChanger(element, propertyName, value) {
+  document.querySelector(element).style[propertyName] = value;
+}
