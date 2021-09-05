@@ -37,3 +37,11 @@ function returnTContent(elementName, equalValue) {
 function cssStyleChanger(element, propertyName, value) {
   document.querySelector(element).style[propertyName] = value;
 }
+
+// child style changer
+function childStyle(containerName, propertyName, value) {
+  const containerChild = document.querySelector(containerName).children;
+  for (let child of containerChild) {
+    child.style[propertyName] = value;
+  }
+}
