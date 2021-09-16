@@ -137,3 +137,8 @@ function titleCaseConverter(text) {
   // make string with array
   return arrayText.join(" ");
 }
+
+// input Clear Function
+function InputClear(input) {
+  document.querySelector(input).value = "";
+}
