@@ -46,11 +46,6 @@ function childStyle(containerName, propertyName, value) {
   }
 }
 
-const person = {
-  name: "alireza",
-  lastName: "fazeli",
-};
-
 // find in key object
 /**
  *
@@ -141,4 +136,16 @@ function titleCaseConverter(text) {
 // input Clear Function
 function InputClear(input) {
   document.querySelector(input).value = "";
+}
+
+// return dates With region
+function datesRegion(region, dates) {
+  let myDate;
+  if (dates == "now") {
+    myDate = new Date();
+    return new Intl.DateTimeFormat(region).format(myDate);
+  } else {
+    myDate = new Date(dates);
+    return new Intl.DateTimeFormat(region).format(myDate);
+  }
 }
