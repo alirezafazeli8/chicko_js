@@ -2,7 +2,7 @@
 
 ------------
 
-[chicko.js document](https://www.docfly.com/files/0t2iniv3om5-bdb409b9/pre_editor "chicko.js document")
+[chicko.js document](https://www.dropbox.com/s/z0i2jxyetxy97pk/chicko_js.pdf?dl=0 "chicko.js document")
 
 ------------
 
